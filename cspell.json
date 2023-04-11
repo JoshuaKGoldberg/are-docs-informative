@@ -20,6 +20,7 @@
 		"lcov",
 		"packagejson",
 		"quickstart",
+		"tsup",
 		"winkey",
 		"wontfix"
 	]
