@@ -21,6 +21,15 @@ pnpm build --watch
 
 You should also see suggestions from TypeScript in your editor.
 
+### Building (Full)
+
+This package exports both CommonJS and ESM outputs.
+You can run a full build of both exports with:
+
+```shell
+pnpm build:full
+```
+
 ## Formatting
 
 [Prettier](https://prettier.io) is used to format code.
