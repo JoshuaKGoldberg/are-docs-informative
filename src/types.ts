@@ -35,6 +35,5 @@ export interface InformativeDocsOptions {
 	 * export const text = ":)";
 	 * ```
 	 */
-	existingName?: string | string[];
 	uselessWords?: string[];
 }
