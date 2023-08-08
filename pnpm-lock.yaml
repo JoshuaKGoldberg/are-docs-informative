@@ -7,7 +7,7 @@ specifiers:
   '@vitest/coverage-istanbul': ^0.33.0
   cspell: ^6.19.2
   eslint: ^8.32.0
-  eslint-config-prettier: ^8.6.0
+  eslint-config-prettier: ^9.0.0
   eslint-plugin-deprecation: ^1.3.3
   eslint-plugin-eslint-comments: ^3.2.0
   eslint-plugin-import: ^2.27.5
@@ -45,7 +45,7 @@ devDependencies:
   '@vitest/coverage-istanbul': 0.33.0_vitest@0.29.1
   cspell: 6.19.2
   eslint: 8.32.0
-  eslint-config-prettier: 8.6.0_eslint@8.32.0
+  eslint-config-prettier: 9.0.0_eslint@8.32.0
   eslint-plugin-deprecation: 1.3.3_pydb3hde2stcjsf742jarbqbry
   eslint-plugin-eslint-comments: 3.2.0_eslint@8.32.0
   eslint-plugin-import: 2.27.5_2l6piu6guil2f63lj3qmhzbnn4
@@ -3077,8 +3077,8 @@ packages:
       source-map: 0.6.1
     dev: true
 
-  /eslint-config-prettier/8.6.0_eslint@8.32.0:
-    resolution: {integrity: sha512-bAF0eLpLVqP5oEVUFKpMA+NnRFICwn9X8B5jrR9FcqnYBuPbqWEjTEspPWMj5ye6czoSLDweCzSo3Ko7gGrZaA==}
+  /eslint-config-prettier/9.0.0_eslint@8.32.0:
+    resolution: {integrity: sha512-IcJsTkJae2S35pRsRAwoCE+925rJJStOdkKnLVgtE+tEpqU0EVVM7OqrwxqgptKdX29NUwC82I5pXsGFIgSevw==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
