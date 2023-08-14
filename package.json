@@ -79,7 +79,7 @@
 		"should-semantic-release": "^0.1.0",
 		"tsup": "^7.0.0",
 		"typescript": "^5.0.0",
-		"vitest": "^0.29.0",
+		"vitest": "^0.34.0",
 		"yaml-eslint-parser": "^1.2.0"
 	},
 	"packageManager": "pnpm@7.33.6",
