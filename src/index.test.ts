@@ -1,6 +1,6 @@
 import { describe, expect, test } from "vitest";
 
-import { areDocsInformative, InformativeDocsOptions } from "./index.js";
+import { InformativeDocsOptions, areDocsInformative } from "./index.js";
 
 describe("areDocsInformative", () => {
 	test.each([
@@ -32,12 +32,14 @@ describe("areDocsInformative", () => {
 			true,
 			{ aliases: { abc: ["ghi"] }, uselessWords: ["def"] },
 		],
-	] satisfies [string | string[], string | string[], boolean, InformativeDocsOptions | undefined][])(
-		"'%s' returns %s with options %j",
-		(docs, name, expected, options) => {
-			const actual = areDocsInformative(docs, name, options);
+	] satisfies [
+		string | string[],
+		string | string[],
+		boolean,
+		InformativeDocsOptions | undefined,
+	][])("'%s' returns %s with options %j", (docs, name, expected, options) => {
+		const actual = areDocsInformative(docs, name, options);
 
-			expect(actual).toBe(expected);
-		}
-	);
+		expect(actual).toBe(expected);
+	});
 });

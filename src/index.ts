@@ -11,9 +11,8 @@ const defaultUselessWords = ["a", "an", "i", "in", "of", "s", "the"];
 /**
  * @param docs - Any amount of docs text, such as from a JSDoc description.
  * @param name - Name of the entity the docs text is describing.
- * @param options - Additional options to customize informativity checking.
+//  * @param options - Additional options to customize informativity checking.
  * @returns Whether the docs include at least one word with new information.
- *
  * @example
  * ```js
  * areDocsInformative("The user id.", "userId"); // false
@@ -26,11 +25,10 @@ const defaultUselessWords = ["a", "an", "i", "in", "of", "s", "the"];
 export function areDocsInformative(
 	docs: string | string[],
 	name: string | string[],
-	{
-		aliases = defaultAliases,
-		uselessWords = defaultUselessWords,
-	}: InformativeDocsOptions = {}
+	options: InformativeDocsOptions = {},
 ) {
+	const { aliases = defaultAliases, uselessWords = defaultUselessWords } =
+		options;
 	const docsWords = new Set(splitTextIntoWords(docs));
 	const nameWords = splitTextIntoWords(name);
 
