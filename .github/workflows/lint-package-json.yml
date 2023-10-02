@@ -1,16 +1,15 @@
 jobs:
-  markdown:
+  lint_package_json:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: ./.github/actions/prepare
-      - run: pnpm lint:md
+      - run: pnpm lint:package-json
 
-name: Lint Markdown
+name: Lint Package JSON
 
 on:
   pull_request: ~
-
   push:
     branches:
       - main

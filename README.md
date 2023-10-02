@@ -6,10 +6,10 @@
 	<a href="#contributors" target="_blank">
 <!-- prettier-ignore-start -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-<img alt="All Contributors: 1" src="https://img.shields.io/badge/all_contributors-1-21bb42.svg" />
+<img alt="All Contributors: 1 👪" src="https://img.shields.io/badge/all_contributors-1-21bb42.svg" />
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <!-- prettier-ignore-end -->
-	</a>
+</a>
 	<a href="https://codecov.io/gh/JoshuaKGoldberg/are-docs-informative" target="_blank">
 		<img alt="Codecov Test Coverage" src="https://codecov.io/gh/JoshuaKGoldberg/are-docs-informative/branch/main/graph/badge.svg"/>
 	</a>
@@ -24,6 +24,7 @@
 	</a>
 	<img alt="Style: Prettier" src="https://img.shields.io/badge/style-prettier-21bb42.svg" />
 	<img alt="TypeScript: Strict" src="https://img.shields.io/badge/typescript-strict-21bb42.svg" />
+	<img alt="npm package version" src="https://img.shields.io/npm/v/are-docs-informative?color=21bb42" />
 </p>
 
 ## Usage
@@ -105,10 +106,4 @@ Thanks! 💖
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 <!-- spellchecker: enable -->
 
-<!-- You can remove this notice if you don't want it 🙂 no worries! -->
-
 > 💙 This package is based on [@JoshuaKGoldberg](https://github.com/JoshuaKGoldberg)'s [template-typescript-node-package](https://github.com/JoshuaKGoldberg/template-typescript-node-package).
-
-<!-- You can remove this notice if you don't want it 🙂 no worries! -->
-
-> 💙 This package is based on [@JoshuaKGoldberg](https://github.com/JoshuaKGoldberg)'s [are-docs-informative](https://github.com/JoshuaKGoldberg/are-docs-informative).
