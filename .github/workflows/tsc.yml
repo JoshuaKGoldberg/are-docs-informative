@@ -1,16 +1,15 @@
 jobs:
-  packages:
+  type_check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: ./.github/actions/prepare
-      - run: pnpm lint:packages
+      - run: pnpm tsc
 
-name: Lint Packages
+name: Type Check
 
 on:
   pull_request: ~
-
   push:
     branches:
       - main
