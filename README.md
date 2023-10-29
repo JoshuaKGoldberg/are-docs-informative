@@ -27,6 +27,10 @@
 	<img alt="npm package version" src="https://img.shields.io/npm/v/are-docs-informative?color=21bb42" />
 </p>
 
+<p align="center">
+	<em>See this in action in <a href="https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/informative-docs.md"><code>eslint-plugin/jsdoc</code>'s <code>jsdoc/informative-docs</code> rule</a>!</em>
+</p>
+
 ## Usage
 
 ```shell
