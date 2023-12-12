@@ -5,7 +5,11 @@
   "contributors": [
     {
       "avatar_url": "https://avatars.githubusercontent.com/u/3335181?v=4",
-      "contributions": ["tool"],
+      "contributions": [
+        "tool",
+        "doc",
+        "infra"
+      ],
       "login": "JoshuaKGoldberg",
       "name": "Josh Goldberg",
       "profile": "http://www.joshuakgoldberg.com"
@@ -13,10 +17,13 @@
   ],
   "contributorsPerLine": 7,
   "contributorsSortAlphabetically": true,
-  "files": ["README.md"],
+  "files": [
+    "README.md"
+  ],
   "imageSize": 100,
   "projectName": "are-docs-informative",
   "projectOwner": "JoshuaKGoldberg",
   "repoHost": "https://github.com",
-  "repoType": "github"
+  "repoType": "github",
+  "commitType": "docs"
 }
