@@ -1,6 +1,6 @@
 import { describe, expect, test } from "vitest";
 
-import { InformativeDocsOptions, areDocsInformative } from "./index.js";
+import { areDocsInformative, InformativeDocsOptions } from "./index.js";
 
 describe("areDocsInformative", () => {
 	test.each([

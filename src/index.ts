@@ -9,9 +9,9 @@ const defaultAliases: Record<string, string[]> = {
 const defaultUselessWords = ["a", "an", "i", "in", "of", "s", "the"];
 
 /**
- * @param docs - Any amount of docs text, such as from a JSDoc description.
- * @param name - Name of the entity the docs text is describing.
-//  * @param options - Additional options to customize informativity checking.
+ * @param docs Any amount of docs text, such as from a JSDoc description.
+ * @param name Name of the entity the docs text is describing.
+ * //  * @param options - Additional options to customize informativity checking.
  * @returns Whether the docs include at least one word with new information.
  * @example
  * ```js
@@ -45,7 +45,6 @@ export function areDocsInformative(
 	function normalizeWord(word: string) {
 		const wordLower = word.toLowerCase();
 
-		// eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
 		return aliases[wordLower] ?? wordLower;
 	}
 
