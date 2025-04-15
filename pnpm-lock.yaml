@@ -33,8 +33,8 @@ importers:
         specifier: 0.5.0
         version: 0.5.0
       create-typescript-app:
-        specifier: 2.34.0
-        version: 2.34.0(bingo-systems@0.5.4)(typescript@5.8.2)
+        specifier: 2.35.0
+        version: 2.35.0(bingo-systems@0.5.4)(typescript@5.8.2)
       cspell:
         specifier: 8.18.0
         version: 8.18.0
@@ -1643,8 +1643,8 @@ packages:
       typescript:
         optional: true
 
-  create-typescript-app@2.34.0:
-    resolution: {integrity: sha512-F0ZlGG9RbzstVr7zD+OAesJ4mpETB1T08bnUgH1O1nqTdyORufv3D8cyLhd5kF6b2+SFlu/V/LF5QAZjImozjQ==}
+  create-typescript-app@2.35.0:
+    resolution: {integrity: sha512-UKVC5T4zSWhNI8QNlVgTQdjPqUM5G84o7WKoSLmfF1XXFLJIUn+L4VXFtLWpQg1VhmUkGrs5hwxnjXwmir+E/g==}
     engines: {node: '>=18.3.0'}
     hasBin: true
 
@@ -5507,7 +5507,7 @@ snapshots:
     optionalDependencies:
       typescript: 5.8.2
 
-  create-typescript-app@2.34.0(bingo-systems@0.5.4)(typescript@5.8.2):
+  create-typescript-app@2.35.0(bingo-systems@0.5.4)(typescript@5.8.2):
     dependencies:
       '@typescript-eslint/typescript-estree': 8.30.1(typescript@5.8.2)
       bingo: 0.5.15
