@@ -20,6 +20,8 @@
 
 ## Usage
 
+> See this in action in [`jsdoc/informative-docs`](https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/informative-docs.md)!
+
 ```shell
 npm i are-docs-informative
 ```
