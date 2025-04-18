@@ -6,7 +6,7 @@ const defaultAliases: Record<string, string[]> = {
 	a: ["an", "our"],
 };
 
-const defaultUselessWords = ["a", "an", "i", "in", "of", "s", "the"];
+const defaultUselessWords = ["a", "an", "i", "in", "of", "re", "s", "the"];
 
 /**
  * @param docs Any amount of docs text, such as from a JSDoc description.
