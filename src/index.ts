@@ -52,8 +52,8 @@ export function areDocsInformative(
 		return (typeof text === "string" ? [text] : text)
 			.flatMap((name) => {
 				return name
-					.replace(/\W+/gu, " ")
-					.replace(/([a-z])([A-Z])/gu, "$1 $2")
+					.replace(/[^\p{L}\p{N}_]+/gu, " ")
+					.replace(/(\p{Ll})(\p{Lu})/gu, "$1 $2")
 					.trim()
 					.split(" ");
 			})
