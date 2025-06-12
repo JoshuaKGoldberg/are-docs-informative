@@ -1,5 +1,6 @@
 {
   "badgeTemplate": "\t<a href=\"#contributors\" target=\"_blank\"><img alt=\"👪 All Contributors: <%= contributors.length %>\" src=\"https://img.shields.io/badge/%F0%9F%91%AA_all_contributors-<%= contributors.length %>-21bb42.svg\" /></a>",
+  "commitType": "docs",
   "contributors": [
     {
       "avatar_url": "https://avatars.githubusercontent.com/u/3335181?v=4",
@@ -21,21 +22,19 @@
       "login": "azat-io",
       "name": "Azat S.",
       "avatar_url": "https://avatars.githubusercontent.com/u/5698350?v=4",
-      "profile": "http://azat.io",
+      "profile": "https://github.com/azat-io",
       "contributions": [
-        "bug",
-        "code"
+        "bug"
       ]
     }
   ],
+  "contributorsPerLine": 7,
   "contributorsSortAlphabetically": true,
-  "projectName": "are-docs-informative",
-  "projectOwner": "JoshuaKGoldberg",
-  "repoType": "github",
-  "commitConvention": "angular",
   "files": [
     "README.md"
   ],
-  "commitType": "docs",
-  "contributorsPerLine": 7
+  "projectName": "are-docs-informative",
+  "projectOwner": "JoshuaKGoldberg",
+  "repoType": "github",
+  "commitConvention": "angular"
 }
