@@ -1,6 +1,6 @@
 {
 	"name": "are-docs-informative",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Checks whether a documentation description introduces any new information. ℹ️",
 	"repository": {
 		"type": "git",
