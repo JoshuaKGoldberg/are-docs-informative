@@ -9,6 +9,9 @@ describe("areDocsInformative", () => {
 		[["", "  "], "", false, {}],
 		["word", "", true, {}],
 		["word", "word", false, {}],
+		["word", "word", false, {}],
+		["word're", "word", false, {}],
+		["word's", "word", false, {}],
 		["word", ["word"], false, {}],
 		["abc def", "abc", true, {}],
 		["abc def", "abc, def", false, {}],
@@ -32,6 +35,8 @@ describe("areDocsInformative", () => {
 			true,
 			{ aliases: { abc: ["ghi"] }, uselessWords: ["def"] },
 		],
+		["абв где", "абв", true, undefined],
+		["абв где", "абв, где", false, undefined],
 	] satisfies [
 		string | string[],
 		string | string[],

@@ -6,12 +6,12 @@ const defaultAliases: Record<string, string[]> = {
 	a: ["an", "our"],
 };
 
-const defaultUselessWords = ["a", "an", "i", "in", "of", "s", "the"];
+const defaultUselessWords = ["a", "an", "i", "in", "of", "re", "s", "the"];
 
 /**
  * @param docs Any amount of docs text, such as from a JSDoc description.
  * @param name Name of the entity the docs text is describing.
- * //  * @param options - Additional options to customize informativity checking.
+ * @param options Additional options to customize informativity checking.
  * @returns Whether the docs include at least one word with new information.
  * @example
  * ```js
@@ -52,8 +52,8 @@ export function areDocsInformative(
 		return (typeof text === "string" ? [text] : text)
 			.flatMap((name) => {
 				return name
-					.replace(/\W+/gu, " ")
-					.replace(/([a-z])([A-Z])/gu, "$1 $2")
+					.replace(/[^\p{L}\p{N}_]+/gu, " ")
+					.replace(/(\p{Ll})(\p{Lu})/gu, "$1 $2")
 					.trim()
 					.split(" ");
 			})
