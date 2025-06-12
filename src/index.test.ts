@@ -35,6 +35,8 @@ describe("areDocsInformative", () => {
 			true,
 			{ aliases: { abc: ["ghi"] }, uselessWords: ["def"] },
 		],
+		["абв где", "абв", true, undefined],
+		["абв где", "абв, где", false, undefined],
 	] satisfies [
 		string | string[],
 		string | string[],
