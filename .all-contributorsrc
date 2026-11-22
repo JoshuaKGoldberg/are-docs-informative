@@ -35,6 +35,5 @@
   ],
   "projectName": "are-docs-informative",
   "projectOwner": "JoshuaKGoldberg",
-  "repoType": "github",
-  "commitConvention": "angular"
+  "repoType": "github"
 }

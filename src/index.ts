@@ -1,6 +1,6 @@
-import { InformativeDocsOptions } from "./types.js";
+import { InformativeDocsOptions } from "./types.ts";
 
-export * from "./types.js";
+export * from "./types.ts";
 
 const defaultAliases: Record<string, string[]> = {
 	a: ["an", "our"],

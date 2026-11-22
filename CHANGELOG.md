@@ -6,7 +6,7 @@
 
 - support cyrillic symbols ([#775](https://github.com/JoshuaKGoldberg/are-docs-informative/issues/775)) ([59a5acc](https://github.com/JoshuaKGoldberg/are-docs-informative/commit/59a5accb222659650158b067d74bbc809cefb8c3)), closes [#772](https://github.com/JoshuaKGoldberg/are-docs-informative/issues/772)
 
-# 0.1.0 (2025-04-18)
+## 0.1.0 (2025-04-18)
 
 ### Bug Fixes
 
