@@ -6,7 +6,6 @@
 		"CHANGELOG.md",
 		"coverage",
 		"dist",
-		"lib",
 		"node_modules",
 		"pnpm-lock.yaml"
 	],
@@ -17,8 +16,6 @@
 		"apexskier",
 		"automerge",
 		"informativity",
-		"joshuakgoldberg",
-		"markdownlintignore",
 		"mshick",
 		"octoguide",
 		"peakoss",
