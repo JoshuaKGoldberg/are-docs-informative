@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.2](https://github.com/JoshuaKGoldberg/are-docs-informative/compare/0.1.1...0.1.2) (2026-11-24)
+
+### Bug Fixes
+
+- bump to create-typescript-app@2.87.18 ([#1113](https://github.com/JoshuaKGoldberg/are-docs-informative/issues/1113)) ([e347dd7](https://github.com/JoshuaKGoldberg/are-docs-informative/commit/e347dd7e59d175156c2174bd1f19d8f00c216576)), closes [#1112](https://github.com/JoshuaKGoldberg/are-docs-informative/issues/1112)
+
 ## [0.1.1](https://github.com/JoshuaKGoldberg/are-docs-informative/compare/0.1.0...0.1.1) (2025-06-12)
 
 ### Bug Fixes
