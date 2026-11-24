@@ -1,8 +1,8 @@
 import { describe, expect, test } from "vitest";
 
-import { areDocsInformative, InformativeDocsOptions } from "./index.js";
+import { areDocsInformative, InformativeDocsOptions } from "./index.ts";
 
-describe("areDocsInformative", () => {
+describe(areDocsInformative, () => {
 	test.each([
 		["", "", false, undefined],
 		[[""], "", false, {}],
